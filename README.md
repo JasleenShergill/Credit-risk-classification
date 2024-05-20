@@ -1,4 +1,4 @@
-**📚 Credit Risk Analysis**
+****📚 Credit Risk Analysis****
 
 Welcome to the Credit Risk Analysis project! 🎉 This project aims to predict the risk status of loans using a logistic regression model. Below you'll find the steps taken to prepare the data, build the model, evaluate its performance, and the results obtained.
 

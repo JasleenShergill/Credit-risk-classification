@@ -14,11 +14,13 @@ Split the Data: Split the data into training and testing datasets using train_te
 
 **📊 Results**
 
-**Confusion Matrix**:
-  ![alt text](image-1.png)]
+**Confusion Matrix**:  
+
+![alt text](image-1.png)]
 
 Classification Report:
-  ![alt text](image.png)
+
+![alt text](image.png)
 
 **Performance Metrics**
 Accuracy: 94%

@@ -5,15 +5,15 @@ The goal of this analysis was to develop a supervised machine learning model to 
 ## Financial Information and Prediction Target
 The dataset consisted of 77,500 rows with the following financial information:
 
--Loan size
--Interest rate
--Borrower's income
--Debt-to-income ratio
--Number of accounts
--Derogatory marks
--Total debt
--Loan status (healthy or high-risk)
--Out of the total loans, 75,000 were labeled as healthy, and 2,500 were labeled as high-risk.
+-Loan size    
+-Interest rate    
+-Borrower's income    
+-Debt-to-income ratio    
+-Number of accounts    
+-Derogatory marks    
+-Total debt    
+-Loan status (healthy or high-risk)    
+-Out of the total loans, 75,000 were labeled as healthy, and 2,500 were labeled as high-risk.    
 
 Machine Learning Process
 To build the model, the following steps were taken:
@@ -35,14 +35,14 @@ The model's predictions were compared with the actual test labels to evaluate it
 
 ## Results
 
--Accuracy: 0.99185
--Balanced Accuracy: 0.95205
--Precision:
-    Healthy: 1.00
-    High-Risk: 0.85
--Recall:
-    Healthy: 0.99
-    High-Risk: 0.91
+-Accuracy: 0.99185    
+-Balanced Accuracy: 0.95205    
+-Precision:    
+    Healthy: 1.00    
+    High-Risk: 0.85    
+-Recall:    
+    Healthy: 0.99    
+    High-Risk: 0.91    
 
 ## Summary
 The Logistic Regression model performed very well in predicting healthy loans, achieving perfect precision for healthy loans and a high recall of 0.99. However, it incorrectly classified 10% of high-risk loans as healthy. Despite the model's high overall accuracy, this misclassification rate for high-risk loans is significant, as defaulted loans can lead to substantial financial losses.

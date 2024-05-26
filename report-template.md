@@ -51,6 +51,6 @@ The model's performance is influenced by the imbalance in the dataset, with rela
 
 In loan classification, it is crucial to prevent high-risk loans from being misclassified as healthy, as the financial loss from a single defaulted loan can be greater than the interest gained from several healthy loans. Therefore, while the Logistic Regression model shows promise, further refinement and possibly exploring more complex models might be necessary to enhance the prediction of high-risk loans.
 
-**Model Recommendation : **    
+## Model Recommendation :   
 
 Given the strong performance observed in the logistic regression model, I recommend deploying it for credit risk prediction. Its accuracy, along with balanced precision and recall scores, makes it a reliable tool for identifying both healthy and high-risk loans, enabling the company to make informed lending decisions and minimize the risk of default.
